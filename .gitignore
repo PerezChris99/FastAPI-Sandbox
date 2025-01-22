@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+
+env
+/env
+/.env
+
+
+# Distribution / packaging
+.eggs/
+.pip/
+build/
+dist/
+docs/_build/
+develop/
+*.egg-info/
+.installed.cfg
+PKG-INFO
+
+# PyInstaller
+*.spec
+
+# Unit test/coverage reports
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+cover/
+.tox/
+
+# Django session files
+*.session-id
+
+# Compiled JavaScript/CSS (if you have any)
+*.js.map
+*.css.map
+
+# Local configuration
+*.env
+*.env.*
+local.settings.py
+.env.local
+.secrets.yml
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Jupyter Notebook files
+*.ipynb_checkpoints
+
+# Miscellaneous
+*~
