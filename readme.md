@@ -16,33 +16,12 @@ FastAPI is a web framework that leverages Python's type hints to provide:
     
 
 **Getting Started**
-
-1.  **Create a GitHub Repository:**
+        
+2.  **Setting up:**
     
-    *   Go to GitHub and create a new repository (e.g., "fastapi-tutorial").
-        
-    *   Initialize the repository with a README.md file (this file!).
-        
-2.  **Create a Virtual Environment:**
-    
-    *   python3 -m venv venv
-        
-    *   Activate the virtual environment:
-        
-        *   source venv/bin/activate
-            
-        *   venv\\Scripts\\activate
-            
-3.  Bashpip install fastapi uvicorn\[standard\]
-    
+    *  Run the setup.bat file
 
 **Basic Example**
-
-Here's a simple FastAPI application:
-
-Python
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`from fastapi import FastAPI  app = FastAPI()  @app.get("/")  async def root():      return {"message": "Hello, FastAPI!"}  if __name__ == "__main__":      import uvicorn      uvicorn.run(app, host="127.0.0.1", port=8000)` 
 
 *   **FastAPI():** Creates an instance of the FastAPI class.
     
